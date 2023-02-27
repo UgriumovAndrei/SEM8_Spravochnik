@@ -66,13 +66,13 @@ while True:
     if n == '1':
         print('Список контактов: ')
         all_contacts()
-    elif n=='2':
+    elif n == '2':
         contact_search(input('Введите ФИО или номер: '))
-    elif n== '3':
+    elif n == '3':
         add_contact(input('Введите ФИО и телефон нового контакта: '))
-    elif n== '4':
+    elif n == '4':
         change_contact(input('Введите фамилию человека, чей номер вы хотите изменить: '))
-    elif n=='5':
+    elif n == '5':
         delte_contact(input('Введите фамилию человека, чей номер вы хотите удалить: '))
     else:
         break
